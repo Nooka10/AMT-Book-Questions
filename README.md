@@ -192,3 +192,12 @@ Docker, heroku CLI, kubctl
 ```
 
 Ils faut définir les chemin dans le web.xml ? // A confirmer
+
+# 4.0 Question bonus
+
+```
+Why manage conversational state in a SFSB rather than in an HTTP session? 
+```
+
+Un arguement est le besoin du support de client riche qui ne passe pas par le tier de présentation. Un autre argument est la séparation entre l'interface utilisateur durant des worflow utilisant différents client.
+
